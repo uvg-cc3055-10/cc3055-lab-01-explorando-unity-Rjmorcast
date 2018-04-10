@@ -18,7 +18,7 @@ public class BirdScript : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        if (rb.transform.localPosition.x >= 20) {
+        if (rb.transform.localPosition.x >= 47) {
             dead = true;
         }
         if (!dead) { 
